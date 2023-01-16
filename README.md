@@ -7,8 +7,10 @@ Author: `Eden Zhou`
 
 
 ## Algorithms Contained
-- NGrams [`NLP` / `Supervised Learning`]
+# NGrams [`NLP` / `SL:Classification`]
+  - three methods
 
 
-- KNN [`CV` / `Supervised Learning:Classification`]
+
+# KNN [`CV` / `SL:Classification`]
 
