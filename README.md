@@ -10,5 +10,5 @@ Author: `Eden Zhou`
 - NGrams [`NLP` / `Supervised Learning`]
 
 
-- KNN [`CV` / `Supervised Learning`]
+- KNN [`CV` / `Supervised Learning:Classification`]
 
