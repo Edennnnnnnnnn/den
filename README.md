@@ -7,10 +7,10 @@ Author: `Eden Zhou`
 
 
 ## Algorithms Contained
-# NGrams [`NLP` / `SL:Classification`]
+#### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`]
   - three methods
 
 
 
-# KNN [`CV` / `SL:Classification`]
+#### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`]
 
