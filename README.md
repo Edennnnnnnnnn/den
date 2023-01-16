@@ -6,7 +6,7 @@ Author: `Eden Zhou`
 - Current Version: `20230116`
 
 
-## Machine Learning
+## Machine Learning Algorithms
 #### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 ##### with:
 
@@ -25,4 +25,4 @@ Author: `Eden Zhou`
 
 ####[MCTS]
 
-## Reinforcement Learning
+## Reinforcement Learning Algorithms
