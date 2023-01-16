@@ -1,5 +1,5 @@
 # den - AI Algorithms Library
-#####Author: `Eden Zhou`
+##### Author: `Eden Zhou`
 
 
 ## Version
@@ -23,7 +23,7 @@
 
 ## Searching & Simulation Algorithms
 
-[MCTS]
-[A*]
+#### [MCTS]
+#### [A*]
 
 ## Reinforcement Learning Algorithms
