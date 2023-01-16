@@ -9,13 +9,13 @@ Author: `Eden Zhou`
 ## Algorithms Contained
 #### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 
-  with
+  with:
   
-    - [Method of Unsmoothed]
+    - Method of Unsmoothed
     
-    - [Method of Laplace Smoothing]
+    - Method of Laplace Smoothing
     
-    - [Method of Interpolation Smoothing(Heuristics)]
+    - Method of Interpolation Smoothing (Heuristics)
 
 
 #### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
