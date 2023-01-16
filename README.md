@@ -1,8 +1,5 @@
 # den - AI Algorithms Library
 
-
-
-## Version & Copyright
 ##### - Author: `Eden Zhou`
 ##### - Current Version: `20230116`
 
