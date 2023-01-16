@@ -23,4 +23,6 @@ Author: `Eden Zhou`
 
 ## Searching & Simulation Algorithms
 
+####[MCTS]
+
 ## Reinforcement Learning
