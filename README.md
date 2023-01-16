@@ -19,4 +19,4 @@ Author: `Eden Zhou`
 
 #### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
 ##### based on:
-    - `Pytorch` and `Numpy` env, with GPU acceleration;
+- `Pytorch` and `Numpy` env, with GPU acceleration;
