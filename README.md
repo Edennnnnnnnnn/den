@@ -6,7 +6,7 @@ Author: `Eden Zhou`
 - Current Version: `20230116`
 
 
-## Supervised Learning Algorithms
+## ML - Supervised Learning Algorithms
 #### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 ##### with:
 
