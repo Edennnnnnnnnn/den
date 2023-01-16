@@ -1,5 +1,5 @@
 # den - AI Algorithms Library
-Author: `Eden Zhou`
+#####Author: `Eden Zhou`
 
 
 ## Version
