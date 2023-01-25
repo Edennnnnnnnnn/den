@@ -1,11 +1,14 @@
-# den - AI Algorithms Library
+# den: Codes Library
 
 ##### - Author: `Eden Zhou`
 ##### - Current Version: `20230116`
 
 
 
-## Machine Learning Algorithms
+
+## AI Algorithms
+### Machine Learning Algorithms
+
 #### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 > ##### Details:
 > ##### Variants:
