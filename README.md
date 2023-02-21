@@ -7,7 +7,7 @@
 
 ## [ML] Machine Learning Algorithms
 
-#### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
+#### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 > ##### Variants:
 > - Method of Unsmoothed
 > - Method of Laplace Smoothing
@@ -19,7 +19,7 @@
 > - Build-in method in `NLTK`;
 
 
-#### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
+#### [KNN (K-nearest Neighbors Algorithm)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
 > ##### Requirements:
 > - Library of `PyTorch` (for GPU CUDA acceleration);
 > - Library of `Pandas` (for high-dim data operations); 
@@ -30,9 +30,12 @@
 
 ## [AI] Searching & Planning Algorithms
 
-#### []
-#### [MCTS]
-#### [A*]
+#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [MM Bi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+
 
 ## [RL] Reinforcement Learning Algorithms
 #### [MC]
