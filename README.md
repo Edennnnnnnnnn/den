@@ -13,16 +13,19 @@
 > - Method of Laplace Smoothing
 > - Method of Interpolation Smoothing (Heuristics)
 > ##### Requirements:
-> - Libraries of `NLTK` (NLP Operations) and `Numpy` (Data Operations);
+> - Library of `NLTK` (for NLP operations); 
+> - Library of `Numpy` (for high-dim data operations);
 > ##### Alternatives:
-> - Library of `NLTK`, with build-in method;
+> - Build-in method in `NLTK`;
 
 
 #### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
 > ##### Requirements:
-> - Libraries of `Pandas` (for high-dim data operations) and `Numpy` (for high-dim data operations), with GPU CUDA acceleration;
+> - Library of `PyTorch` (for GPU CUDA acceleration);
+> - Library of `Pandas` (for high-dim data operations); 
+> - Library of `Numpy` (for high-dim data operations);
 > ##### Alternatives:
-> - Librarie of `PyTorch` or `Tensorflow`, with build-in method;
+> - Build-in method in `PyTorch` or `Tensorflow`;
 
 
 ## [AI] Searching & Planning Algorithms
