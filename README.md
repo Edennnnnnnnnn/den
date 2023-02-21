@@ -19,7 +19,7 @@
 > - Build-in method in `NLTK`;
 
 
-#### [KNN (K-nearest Neighbors Algorithm)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
+#### [KNN (K-nearest Neighbors Algorithm)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`SL:Classification`] 
 > ##### Requirements:
 > - Library of `PyTorch` (for GPU CUDA acceleration);
 > - Library of `Pandas` (for high-dim data operations); 
