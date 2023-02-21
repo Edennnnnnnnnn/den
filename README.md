@@ -1,35 +1,36 @@
 # den: Codes Library
 
 ##### - Author: `Eden Zhou`
-##### - Current Version: `20230116`
+##### - Current Version: `20230212`
 
 
 
-
-## AI Algorithms
-### Machine Learning Algorithms
+## [ML] Machine Learning Algorithms
 
 #### [NGrams](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
-> ##### Details:
 > ##### Variants:
 > - Method of Unsmoothed
 > - Method of Laplace Smoothing
 > - Method of Interpolation Smoothing (Heuristics)
 > ##### Requirements:
-> - Libraries of `NLTK` and `Numpy`, with GPU acceleration;
+> - Libraries of `NLTK` (NLP Operations) and `Numpy` (Data Operations);
+> ##### Alternatives:
+> - Library of `NLTK`, with build-in method;
 
 
 #### [KNN](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/KNN.py) [`CV` / `SL:Classification`] 
 > ##### Requirements:
 > - Libraries of `Pandas` (for high-dim data operations) and `Numpy` (for high-dim data operations), with GPU CUDA acceleration;
 > ##### Alternatives:
-> - Librarie of `PyTorch` or `Tensorflow`, with build-in KNN methods;
+> - Librarie of `PyTorch` or `Tensorflow`, with build-in method;
 
 
+## [AI] Searching & Planning Algorithms
 
-## Searching & Simulation Algorithms
-
+#### []
 #### [MCTS]
 #### [A*]
 
-## Reinforcement Learning Algorithms
+## [RL] Reinforcement Learning Algorithms
+#### [MC]
+#### [TD]
