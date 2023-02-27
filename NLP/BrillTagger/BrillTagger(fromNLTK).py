@@ -1,3 +1,6 @@
+from nltk.tag.brill_trainer import BrillTaggerTrainer
+from nltk.tag.brill import Word, Pos
+
 class BrillModel:
     def __init__(self):
         """ Class Variables Initialized"""

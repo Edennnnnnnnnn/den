@@ -1,5 +1,3 @@
-from nltk.tag.brill_trainer import BrillTaggerTrainer
-from nltk.tag.brill import Word, Pos
 from nltk.tag.hmm import HiddenMarkovModelTrainer, HiddenMarkovModelTagger, _identity, LidstoneProbDist
 from nltk.tbl.template import Template
 
