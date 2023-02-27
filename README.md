@@ -45,27 +45,23 @@
 
 
 #### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
-> ##### Requirements:
-> - `heapq`, `numpy`;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
 
 
 #### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
-> ##### Requirements:
-> - `heapq`, `numpy`;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
 
 
 #### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
-> ##### Requirements:
-> - `heapq`, `numpy`;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
 
 
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
-> ##### Requirements:
-> - `heapq`, `numpy`;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
 
 
 #### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
