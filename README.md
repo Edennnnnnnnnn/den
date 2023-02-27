@@ -31,7 +31,7 @@
 > - - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406)
 > - Requirements: `nltk`, `numpy`;
 
-#### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
+#### [Brill (Brill Tagger)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
 > ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
 > - `from nltk.tag.brill_trainer import BrillTaggerTrainer`
 > - `from nltk.tag.brill import Word, Pos`
@@ -63,7 +63,7 @@
 
 
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
