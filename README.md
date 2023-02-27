@@ -6,39 +6,33 @@
 &nbsp;
 ## [ML] Machine Learning Algorithms
 #### [KNN (K-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
-> ##### Requirements:
-> - `PyTorch`, `pandas`, `numpy`;
-
-(from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromSKLearn).py))
-> - `from sklearn.neighbors import KNeighborsClassifier`;
-> - CrossValidation applied;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
+> - Requirements: `PyTorch`, `pandas`, `numpy`;
+> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromSKLearn).py))
+> - Method: `from sklearn.neighbors import KNeighborsClassifier`;
+> - Design: CrossValidation applied;
 
 
 #### [NB (Naive Bayes Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NB) [`SL:Classification`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
-> ##### Introduction:
-> - Designed for NLP infomation (emotion/type) extraction purpose;
-> ##### Requirements:
-> - `math`, `copy`, `nltk`, `pandas`;
-
-(from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromSkLearn).py))
-> - `from sklearn.naive_bayes import BernoulliNB`;
-> - CrossValidation applied;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
+> - Intro: Designed for NLP infomation (emotion/type) extraction purpose;
+> - Requirements: `math`, `copy`, `nltk`, `pandas`;
+> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromSkLearn).py))
+> - Method: `from sklearn.naive_bayes import BernoulliNB`;
+> - Design: CrossValidation applied;
 
 &nbsp;
 ## [NLP] Natural Language Processing Algorithms
 #### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP` / `SL:Classification`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py))
-> ##### Variants:
-> - Method of [Unsmoothed](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L311)
-> - Method of [Laplace Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L358)
-> - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406)
-> ##### Requirements:
-> - `nltk`, `numpy`;
-&nbsp;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py))
+> - Variants:
+> - - Method of [Unsmoothed](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L311)
+> - - Method of [Laplace Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L358)
+> - - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406)
+> - Requirements: `nltk`, `numpy`;
+
 #### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
-(from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
+> ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
 > - `from nltk.tag.brill_trainer import BrillTaggerTrainer`
 > - `from nltk.tag.brill import Word, Pos`
 
