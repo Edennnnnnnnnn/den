@@ -24,7 +24,7 @@
 > ##### Requirements:
 > - `nltk`, `numpy`;
 
-#### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP-Tagger`] 
+#### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
 (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
 > - `from nltk.tag.brill_trainer import BrillTaggerTrainer`
 > - `from nltk.tag.brill import Word, Pos`
