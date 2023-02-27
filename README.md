@@ -3,7 +3,7 @@
 ##### - Author: `Eden Zhou`
 ##### - Current Version: `20230227`
 
-
+&nbsp;
 ## [ML] Machine Learning Algorithms
 #### [KNN (K-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
@@ -26,7 +26,7 @@
 > - `from sklearn.naive_bayes import BernoulliNB`;
 > - CrossValidation applied;
 
-
+&nbsp;
 ## [NLP] Natural Language Processing Algorithms
 #### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP` / `SL:Classification`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py))
@@ -36,13 +36,13 @@
 > - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406)
 > ##### Requirements:
 > - `nltk`, `numpy`;
-
+&nbsp;
 #### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
 (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
 > - `from nltk.tag.brill_trainer import BrillTaggerTrainer`
 > - `from nltk.tag.brill import Word, Pos`
 
-
+&nbsp;
 ## [SEARCH] Searching & Planning Algorithms
 #### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`SEARCH:Space-based`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
@@ -76,7 +76,9 @@
 
 #### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
 
-
+&nbsp;
 ## [RL] Reinforcement Learning Algorithms
+
 #### [MC]
+
 #### [TD]
