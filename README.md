@@ -1,4 +1,4 @@
-# den: Codes Library
+# den: Algorithm Library
 
 ##### - Author: `Eden Zhou`
 ##### - Current Version: `20230227`
