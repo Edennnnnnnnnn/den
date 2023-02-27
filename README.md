@@ -9,9 +9,9 @@
 
 #### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py) [`NLP` / `SL:Classification`] 
 > ##### Variants:
-> - Method of Unsmoothed
-> - Method of Laplace Smoothing
-> - Method of Interpolation Smoothing (Heuristics)
+> - [Method of Unsmoothed](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py#L311)
+> - [Method of Laplace Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py#L358)
+> - [Method of Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/NGrams.py#L406) (Heuristics)
 > ##### Requirements:
 > - Library of `NLTK` (for NLP operations); 
 > - Library of `Numpy` (for high-dim data operations);
