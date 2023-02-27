@@ -3,6 +3,10 @@ By Eden Zhou
 Jan. 27, 2023
 """
 
+import heapq
+import numpy
+
+
 class DijkstraSearch:
     def __init__(self, initState: State, goalState: State, spaceMap: Map):
         """
