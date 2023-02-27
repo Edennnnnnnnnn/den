@@ -8,7 +8,7 @@
 #### [KNN (K-nearest Neighbors Algorithm)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
 > ##### Requirements:
-> - `PyTorch`, `Pandas`, `Numpy`;
+> - `PyTorch`, `pandas`, `numpy`;
 
 (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromSKLearn).py))
 > - `from sklearn.neighbors import KNeighborsClassifier`
@@ -22,7 +22,7 @@
 > - Method of [Laplace Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L358)
 > - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406)
 > ##### Requirements:
-> - `NLTK`, `Numpy`;
+> - `nltk`, `numpy`;
 
 #### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP-Tagger`] 
 (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
@@ -31,9 +31,26 @@
 
 
 ## [SEARCH] Searching & Planning Algorithms
-#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
+> ##### Requirements:
+> - `heapq`, `numpy`;
+
+#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> ##### Requirements:
+> - `heapq`, `numpy`;
+
 #### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> ##### Requirements:
+> - `heapq`, `numpy`;
+
 #### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+> ##### Requirements:
+> - `heapq`, `numpy`;
+
 #### [MM Bi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
 #### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
 
