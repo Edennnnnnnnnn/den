@@ -39,9 +39,8 @@
 &nbsp;
 ## [SEARCH] Searching & Planning Algorithms
 #### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`SEARCH:Space-based`] 
-(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
-> ##### Requirements:
-> - `heapq`, `numpy`;
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
 
 
 #### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`SEARCH:Space-based`] 
