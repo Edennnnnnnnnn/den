@@ -51,7 +51,11 @@
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
-#### [MM Bi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar)
+(from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py)
+> ##### Requirements:
+> - `heapq`, `numpy`;
+
 #### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
 
 
