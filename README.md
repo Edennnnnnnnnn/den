@@ -31,27 +31,27 @@
 
 
 ## [SEARCH] Searching & Planning Algorithms
-#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras)
+#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`SEARCH`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
-#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS)
+#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`SEARCH`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
-#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
-#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)
+#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > ##### Requirements:
 > - `heapq`, `numpy`;
 
-#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar)
+#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`SEARCH`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py)
 > ##### Requirements:
 > - `heapq`, `numpy`;
