@@ -18,7 +18,7 @@
 #### [NB (Naive Bayes Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NB) [`SL:Classification`] 
 (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
 > ##### Introduction:
-> - Designed for NLP infomation(emotion/type) extraction purpose;
+> - Designed for NLP infomation (emotion/type) extraction purpose;
 > ##### Requirements:
 > - `math`, `copy`, `nltk`, `pandas`;
 
