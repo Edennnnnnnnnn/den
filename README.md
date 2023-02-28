@@ -56,33 +56,40 @@
 > - Method: `from nltk.tbl.template import Template`;
 
 &nbsp;
-## [SEARCH] Searching & Planning Algorithms
-#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`SEARCH:Space-based`] 
+## [SEARCH] Searching, Planning & Simulation Algorithms
+#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
 
-#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`SEARCH:Space-based`] 
+#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
 
-#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
+#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)  [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
 
-#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
+#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
 
-#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`SEARCH:Space-based`] 
+#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
 
-#### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`SEARCH:Space-based`] 
+#### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
+
+
+&nbsp;
+## [CD] Encoding, Decoding & Compresion Algorithms
+#### [Huffman Coding](https://github.com/Edennnnnnnnnn/den/tree/main/CD/HuffmanCoding) [`Encoding/Decoding`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/CD/HuffmanCoding/HuffmanCoding(fromScratch).py)
+> - Intro: Based on parsing-tree stucture to enable fast encoding and decoding processes;
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
