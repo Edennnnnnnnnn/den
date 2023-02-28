@@ -88,7 +88,7 @@
 &nbsp;
 ## [CD] Encoding, Decoding & Compresion Algorithms
 #### [Huffman Coding](https://github.com/Edennnnnnnnnn/den/tree/main/CD/HuffmanCoding) [`Encoding/Decoding`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/CD/HuffmanCoding/HuffmanCoding(fromScratch).py)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/CD/HuffmanCoding/HuffmanCoding(fromScratch).py))
 > - Intro: Based on parsing-tree stucture to enable fast encoding and decoding processes;
 
 &nbsp;
