@@ -21,6 +21,12 @@
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: CrossValidation applied;
 
+
+#### [HMM (Hidden Markov Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/HMMs) [`SL:Classification`] 
+> ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/ML/HMMs/HMMs(fromNLTK).py))
+> - Method: `from nltk.tag.hmm import HiddenMarkovModelTrainer, HiddenMarkovModelTagger`
+
+
 &nbsp;
 ## [NLP] Natural Language Processing Algorithms
 #### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP` / `SL:Classification`] 
@@ -33,8 +39,9 @@
 
 #### [Brill (Brill Tagger)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
 > ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
-> - `from nltk.tag.brill_trainer import BrillTaggerTrainer`
-> - `from nltk.tag.brill import Word, Pos`
+> - Method: `from nltk.tag.brill_trainer import BrillTaggerTrainer`
+> - Method: `from nltk.tag.brill import Word, Pos`
+> - Method: `from nltk.tbl.template import Template`
 
 &nbsp;
 ## [SEARCH] Searching & Planning Algorithms
