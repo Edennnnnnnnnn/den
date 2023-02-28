@@ -27,6 +27,18 @@
 > - Method: `from nltk.tag.hmm import HiddenMarkovModelTrainer, HiddenMarkovModelTagger`
 
 
+#### [Logistic Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LogisticRegression) [`SL:Classification`] 
+> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/LogisticRegression/LogisticRegression(fromSKLearn).py)
+> - Method: `from sklearn.linear_model import LogisticRegression`
+> - Design: CrossValidation applied;
+
+
+#### [SVM (Support Vector Machine)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM) [`SL:Classification`] 
+> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SVM/SVM(fromSKLearn).py)
+> - Method: `from sklearn.svm import SVC`
+> - Design: CrossValidation applied;
+
+
 &nbsp;
 ## [NLP] Natural Language Processing Algorithms
 #### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP` / `SL:Classification`] 
