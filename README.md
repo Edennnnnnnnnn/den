@@ -1,7 +1,7 @@
 # den: Algorithm Library
 
-##### - Author: `Eden Zhou`
-##### - Current Version: `20230227`
+> #####  Author: `Eden Zhou`
+> #####  Current Version: `20230227`
 
 &nbsp;
 ## [ML] Machine Learning Algorithms
