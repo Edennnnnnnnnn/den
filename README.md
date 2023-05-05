@@ -78,7 +78,7 @@
 > - Method: `from nltk.tbl.template import Template`;
 
 &nbsp;
-## [SEARCH] Searching, Planning & Simulation Algorithms
+## [AI] Searching, Planning & Simulation Algorithms
 #### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
@@ -106,6 +106,11 @@
 
 #### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
 
+&nbsp;
+## [IR] Information Retrieval Algorithms
+#### [Inverted Indexing]() 
+> ##### (from [Scratch]())
+> - Intro:;
 
 &nbsp;
 ## [CD] Encoding, Decoding & Compresion Algorithms
