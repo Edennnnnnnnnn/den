@@ -34,7 +34,7 @@
 > - - Relevant Project --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LinearRegression/LinearRegression(Proj.2))
 
 #### [Logistic Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LogisticRegression) [`SL:Classification`, `Discriminative`]
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/LogisticRegression/LogisticRegression(fromScratch).py)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/LogisticRegression/LogisticRegression(fromScratch).py))
 > - Requirements: `numpy`, `utils`(can be found in projects), `matplotlib.pyplot`;
 > - Design: `Mini-batch Gradient Descent` applied for practical application (for projects), `MSE` is used for error analysis and all the learning process plotted;
 > - - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LogisticRegression/LogisticRegression(Proj.1))
