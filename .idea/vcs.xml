@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/IR/InvertedIndex/InvertedIndex(Project_1)" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ML/NB/NB(Proj.1)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IR/InvertedIndex/InvertedIndex(Proj.1)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ML/NBs/NBs(Proj.1)" vcs="Git" />
   </component>
 </project>
