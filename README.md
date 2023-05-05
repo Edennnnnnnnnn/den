@@ -1,36 +1,58 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230227`
+> #####  Current Version: `20230505`
 
 &nbsp;
 ## [ML] Machine Learning Algorithms
 #### [KNN (K-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
-> - Requirements: `PyTorch`, `pandas`, `numpy`;
+> ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch).py))
+> - Intro: Designed for pictures detection and classification;
+> - Requirements: `pyTorch`, `pandas`, `numpy`;
+> > Relevant Projects --> [Project.1]()
+> ##### (from [Scratch.2]())
+> - Intro: Designed for document data classification and better retrieval;
+> - Requirements: ;
+> > Relevant Projects --> [Project.2]()
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromSKLearn).py))
 > - Method: `from sklearn.neighbors import KNeighborsClassifier`;
 > - Design: CrossValidation applied;
 
 
-#### [NB (Naive Bayes Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NB) [`SL:Classification`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
-> - Intro: Designed for NLP infomation (emotion/type) extraction purpose;
+#### [NB (Naive Bayes Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NB) [`SL:Classification`, `Generative`]
+> ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
+> - Intro: Designed for NLP information (emotion/type) extraction purpose;
 > - Requirements: `math`, `copy`, `nltk`, `pandas`;
+> > Relevant Projects --> [Project.1]()
+> ##### (from [Scratch.2]())
+> - Intro: Designed for document data classification and better retrieval;
+> - Requirements: ;
+> > Relevant Projects --> [Project.2]()
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromSkLearn).py))
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: CrossValidation applied;
 
 
-#### [HMM (Hidden Markov Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/HMMs) [`SL:Classification`] 
+#### [HMM (Hidden Markov Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/HMMs) [`SL:Classification`, `Generative`] 
 > ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/ML/HMMs/HMMs(fromNLTK).py))
 > - Method: `from nltk.tag.hmm import HiddenMarkovModelTrainer, HiddenMarkovModelTagger`;
 
+#### [Rocchio Model]() [`SL:Classification`, `Discriminative`] 
+> ##### (from [Scratch]())
+> - Intro: Designed for document data classification and better retrieval;
+> - Requirements: ;
 
-#### [Logistic Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LogisticRegression) [`SL:Classification`] 
+#### [Logistic Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/LogisticRegression) [`SL:Classification`, `Discriminative`]
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/LogisticRegression/LogisticRegression(fromSKLearn).py))
 > - Method: `from sklearn.linear_model import LogisticRegression`;
 > - Design: CrossValidation applied;
+
+
+#### [Softmax Regression]() [`SL:Classification`, `Discriminative`] 
+> ##### (from [Scratch]())
+> - Intro: Designed for pictures detection and classification;
+> - Requirements: ;
+
 
 
 #### [SVM (Support Vector Machine)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM) [`SL:Classification`] 
