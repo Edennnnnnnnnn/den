@@ -60,7 +60,8 @@
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: Cross Validation applied;
 
-#### [NNs (Basic Neural Networks)]()
+#### [NNs (Basic Neural Networks)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NNs)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NNs/NNs(fromScratch).py))
 > - Intro: Established as a three-layer simple NN, `sigmoid` function is used as the activation function;
 > - Requirements: `numpy`;
 
