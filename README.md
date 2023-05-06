@@ -125,10 +125,12 @@
 #### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS/BiBS(Proj.1))
 
 #### [Dijkstra's Search](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras/Dijkstras(Proj.1))
 
 #### [Minimax (Minimax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Minimax) [`Tree-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Minimax/Minimax(fromScratch).py)
@@ -140,6 +142,7 @@
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/MMBiAStar/MMBiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar/MMBiAStar(Proj.1))
 
 #### [Negamax (Negamax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Negamax) [`Tree-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Negamax/Negamax(fromScratch).py)
@@ -162,10 +165,10 @@
 > - Requirements: `re`, `sys`, `csv`, `json`, `os`;
 > - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/IR/InvertedIndex/InvertedIndex(Proj.1))
 
-#### [Regrex Date Indexing]() 
+#### [Regrex Date Indexing](https://github.com/Edennnnnnnnnn/den/tree/main/IR/RegrexDateIndex) 
 > - Intro: Designed for document date-keywords retrieval, precomputed and sorted for better index storage and querying;
 > - Requirements: `re`, `os`, `sys`, `csv`, `nltk`;
-> - Relevant Projects --> [Project.1]()
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/IR/RegrexDateIndex/RegrexDateIndex(Proj.1))
 
 
 
@@ -180,7 +183,3 @@
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
-
-#### [MC]
-
-#### [TD]
