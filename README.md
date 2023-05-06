@@ -1,9 +1,9 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230505`
+> #####  Current Version: `20230506`
 
-&nbsp;
+
 ## [ML] Machine Learning Algorithms
 
 #### [HMMs (Hidden Markov Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/HMMs) [`SL:Classification`, `Generative`] 
@@ -58,6 +58,10 @@
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: Cross Validation applied;
 
+#### [NNs (Basic Neural Networks)]()
+> - Intro: Established as a three-layer simple NN, `sigmoid` function is used as the activation function;
+> - Requirements: `numpy`;
+
 #### [Rocchio Model](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch.A](https://github.com/Edennnnnnnnnn/den/blob/main/ML/Rocchio/Rocchio(fromScratch)(A.Training).py) [Scratch.B](https://github.com/Edennnnnnnnnn/den/blob/main/ML/Rocchio/Rocchio(fromScratch)(B.Prediction).py))
 > - Intro: Designed for document data classification and better retrieval, established based on SMART weighting scheme of `ltc`;
@@ -71,7 +75,7 @@
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SVM/SVM(fromSKLearn).py))
 > - Method: `from sklearn.svm import SVC`;
 > - Design: Cross Validation applied;
-> - Relevant Projects --> [Project.1]()
+> - Relevant Projects --> [Project.1+](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM/SVM(Proj.1%2B))
 
 #### [Softmax Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SoftmaxRegression) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SoftmaxRegression/SoftmaxRegression(fromScratch).py))
@@ -82,7 +86,7 @@
 
 &nbsp;
 ## [NLP] Natural Language Processing Algorithms
-#### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP` / `SL:Classification`] 
+#### [NGrams (N-grams Language Model)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/NGrams) [`NLP:Classic` / `SL:Classification`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py))
 > - Variants:
 > - - Method of [Unsmoothed](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L311);
@@ -90,52 +94,64 @@
 > - - Method of [Interpolation Smoothing](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/NGrams/NGrams(fromScratch).py#L406);
 > - Requirements: `nltk`, `numpy`;
 
-#### [Brill (Brill Tagger)](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
+#### [Brill Tagger](https://github.com/Edennnnnnnnnn/den/tree/main/NLP/BrillTagger) [`NLP:Tagger`] 
 > ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/NLP/BrillTagger/BrillTagger(fromNLTK).py))
 > - Method: `from nltk.tag.brill_trainer import BrillTaggerTrainer`;
 > - Method: `from nltk.tag.brill import Word, Pos`;
 > - Method: `from nltk.tbl.template import Template`;
 
+
+
 &nbsp;
 ## [AI] Searching, Planning & Simulation Algorithms
-#### [Dijkstras (Dijkstra's Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`Space-based:Uninfo`] 
+
+#### [Dijkstra's Search](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-
 
 #### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
-
-#### [A* (A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)  [`Space-based:Heuristic`] 
+#### [A* Search](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)  [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-
 
 #### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
-
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
+#### [MCTS (Monte Carlo Tree Search)]() [`Space-based:Heuristic`] 
 
-#### [MCTS (Monte Carlo Tree Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
+
 
 &nbsp;
 ## [IR] Information Retrieval Algorithms
-#### [Inverted Indexing]() 
-> ##### (from [Scratch]())
-> - Intro:;
+#### [Inverted Indexing](https://github.com/Edennnnnnnnnn/den/tree/main/IR/InvertedIndex) 
+> ##### (from [Scratch.A](https://github.com/Edennnnnnnnnn/den/blob/main/IR/InvertedIndex/InvertedIndex(fromScratch)(A.Indexing).py) [Scratch.B](https://github.com/Edennnnnnnnnn/den/blob/main/IR/InvertedIndex/InvertedIndex(fromScratch)(B.Querying).py))
+> - Intro: Designed for JSON-based document keywords retrieval, precomputed and sorted for better index storage and querying;
+> - Requirements: `re`, `sys`, `csv`, `json`, `os`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/IR/InvertedIndex/InvertedIndex(Proj.1))
+
+#### [Regrex Date Indexing]() 
+> - Intro: Designed for document date-keywords retrieval, precomputed and sorted for better index storage and querying;
+> - Requirements: `re`, `os`, `sys`, `csv`, `nltk`;
+> - Relevant Projects --> [Project.1]()
+
+
 
 &nbsp;
 ## [CD] Encoding, Decoding & Compresion Algorithms
+
 #### [Huffman Coding](https://github.com/Edennnnnnnnnn/den/tree/main/CD/HuffmanCoding) [`Encoding/Decoding`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/CD/HuffmanCoding/HuffmanCoding(fromScratch).py))
-> - Intro: Based on parsing-tree stucture to enable fast encoding and decoding processes;
+> - Intro: Based on parsing-tree structure to enable fast encoding and decoding processes;
+
+
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
