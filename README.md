@@ -43,18 +43,18 @@
 > - Design: CrossValidation applied;
 
 #### [NBs (Naive Bayes Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NB) [`SL:Classification`, `Generative`]
-> ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NB/NB(fromScratch).py))
+> ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.1).py))
 > - Intro: Designed for NLP information (emotion/type) extraction purpose, with complete model analysis part (Confusion matrix based);
 > - Requirements: `sys`, `csv`, `math`, `copy`, `nltk`, `pandas`;
-> - Relevant Projects --> [Project.1]()
-> ##### (from [Scratch.2A](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/NB/NB(fromScratch.2)(A.Training).py) [Scratch.2B]())
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.1))
+> ##### (from [Scratch.2A](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.2)(A.Training).py) [Scratch.2B](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.2)(B.Prediction).py))
 > - Intro: Designed for document data classification and better retrieval;
 > - Requirements: `json`, `sys`, `nltk`, `os`, `csv`, `nltk`;
 > - Variants:
-> - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/NB/NB(fromScratch.2)(A.Training).py#L61)
-> - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/NB/NB(fromScratch.2)(A.Training).py#L74)
-> - Relevant Projects --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/be789762f640d95e3baeca88fe8dd8884f43267f/ML/NB/NB(Proj.2))
-> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/NB/NB(fromSkLearn).py))
+> - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L61)
+> - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L74)
+> - Relevant Projects --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.2))
+> ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromSkLearn).py))
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: Cross Validation applied;
 
@@ -71,6 +71,7 @@
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SVM/SVM(fromSKLearn).py))
 > - Method: `from sklearn.svm import SVC`;
 > - Design: Cross Validation applied;
+> - Relevant Projects --> [Project.1]()
 
 #### [Softmax Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SoftmaxRegression) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SoftmaxRegression/SoftmaxRegression(fromScratch).py))
