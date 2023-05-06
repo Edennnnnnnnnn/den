@@ -152,7 +152,7 @@
 > - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L68)
 
 #### [UCB (Upper Confidence Bound Algorithm)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/UCB) [`Optimization:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/UCB/UCB(fromScratch).py)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/UCB/UCB(fromScratch).py))
 > - Requirements: `bernoulli`, `math`, `numpy`;
 
 
@@ -166,6 +166,7 @@
 > - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/IR/InvertedIndex/InvertedIndex(Proj.1))
 
 #### [Regrex Date Indexing](https://github.com/Edennnnnnnnnn/den/tree/main/IR/RegrexDateIndex) 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/IR/RegrexDateIndex/RegrexDateIndex(fromScratch).py))
 > - Intro: Designed for document date-keywords retrieval, precomputed and sorted for better index storage and querying;
 > - Requirements: `re`, `os`, `sys`, `csv`, `nltk`;
 > - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/IR/RegrexDateIndex/RegrexDateIndex(Proj.1))
