@@ -1,14 +1,16 @@
+"""
+By Eden Zhou
+Jan. 27, 2023
+"""
+
 import heapq
 import numpy
-
-from search.algorithms import State
-from search.map import Map
 
 
 class DijkstraSearch:
     def __init__(self, initState: State, goalState: State, spaceMap: Map):
         """
-            This is the creator function which is used to initialize Dijkstra Search;
+            This is the creator function which is used to initialize Dijkstra AI;
         :param:
             - initState, State, the initial position to start searching;
             - goalState, State, the target position to end searching;
@@ -24,7 +26,7 @@ class DijkstraSearch:
 
     def search(self) -> tuple:
         """
-            This is the searching function which is used to process Dijkstra Search;
+            This is the searching function which is used to process Dijkstra AI;
         :return:
             - (cost: float, expansions: int), tuple, contains searching results: the searching costs (-1 for no-found),
         nun of node expanded in the searching process;
@@ -57,5 +59,3 @@ class DijkstraSearch:
                     heapq.heapify(self.open)
         # If no-found:
         return -1, self.expansionsCounter
-
-

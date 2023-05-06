@@ -1,7 +1,7 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230506`
+> #####  Current Version: `20230507`
 
 
 ## [ML] Machine Learning Algorithms
@@ -51,8 +51,8 @@
 > - Intro: Designed for document data classification and better retrieval;
 > - Requirements: `json`, `sys`, `nltk`, `os`, `csv`, `nltk`;
 > - Variants:
-> - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L61)
-> - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L74)
+> - - Method of [Stopwords Pruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L61)
+> - - Method of [Punctuation Pruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L74)
 > - Relevant Projects --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.2))
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromSkLearn).py))
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
@@ -103,29 +103,54 @@
 
 
 &nbsp;
-## [AI] Searching, Planning & Simulation Algorithms
+## [AI] Searching, Planning & Optimization Algorithms
 
-#### [Dijkstra's Search](https://github.com/Edennnnnnnnnn/den/tree/main/Search/Dijkstras) [`Space-based:Uninfo`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/Dijkstras/Dijkstras(fromScratch).py))
+#### [Alphabeta (Alphabeta Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Alphabeta) [`Tree-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Alphabeta/Alphabeta(fromScratch).py))
+> - Requirements: `numpy`;
+> - Variants:
+> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L14)
+> - - Method of [Depth Limited Heuristic Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L38)
+
+#### [A* Search](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AStar)  [`Space-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/AStar/AStar(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AStar/AStar(Proj.1))
+
+#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiAStar) [`Space-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/BiAStar/BiAStar(fromScratch).py))
+> - Requirements: `heapq`, `numpy`;
+> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiAStar/BiAStar(Proj.1))
+
+#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS) [`Space-based:Uninfo`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
-#### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/BiBS) [`Space-based:Uninfo`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+#### [Dijkstra's Search](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras) [`Space-based:Uninfo`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
-#### [A* Search](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/)  [`Space-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
+#### [Minimax (Minimax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Minimax) [`Tree-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Minimax/Minimax(fromScratch).py)
+> - Requirements: `time`, `numpy`;
+> - Variants:
+> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Minimax/Minimax(fromScratch).py#L19)
+> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Minimax/Minimax(fromScratch).py#L56)
+
+#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar) [`Space-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/MMBiAStar/MMBiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
 
-#### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/blob/main/algorithms/) [`Space-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/BiBS/BiBS(fromScratch).py))
-> - Requirements: `heapq`, `numpy`;
+#### [Negamax (Negamax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Negamax) [`Tree-based:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Negamax/Negamax(fromScratch).py)
+> - Requirements: `time`, `numpy`;
+> - Variants:
+> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Negamax/Negamax(fromScratch).py#L23)
+> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Negamax/Negamax(fromScratch).py#L68)
 
-#### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/Search/MMBiAStar) [`Space-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/Search/MMBiAStar/MMBiAStar(fromScratch).py))
-> - Requirements: `heapq`, `numpy`;
-
-#### [MCTS (Monte Carlo Tree Search)]() [`Space-based:Heuristic`] 
+#### [UCB (Upper Confidence Bound Algorithm)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/UCB) [`Optimization:Heuristic`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/UCB/UCB(fromScratch).py)
+> - Requirements: `bernoulli`, `math`, `numpy`;
 
 
 

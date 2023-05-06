@@ -10,7 +10,7 @@ import numpy
 class AStar:
     def __init__(self, initState: State, goalState: State, spaceMap: Map):
         """
-            This is the creator function which is used to initialize AStar Search;
+            This is the creator function which is used to initialize AStar AI;
         :param:
             - initState, State, the initial position to start searching;
             - goalState, State, the target position to end searching;
@@ -27,7 +27,7 @@ class AStar:
 
     def search(self) -> tuple:
         """
-            This is the searching function which is used to process AStar Search;
+            This is the searching function which is used to process AStar AI;
         :return:
             - (cost: float, expansions: int), tuple, contains searching results: the searching costs (-1 for no-found),
         nun of node expanded in the searching process;

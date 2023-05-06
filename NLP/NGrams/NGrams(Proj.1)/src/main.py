@@ -168,7 +168,7 @@ class NGramsModel:
 
             testCombinations = ngrams(testChars, N)
 
-            # Search/Count the num of test combinations in a model. Calculate prob and perp to evaluate each model;
+            # AI/Count the num of test combinations in a model. Calculate prob and perp to evaluate each model;
             logProb = 0
             for testCombination in testCombinations:
                 target_n = ''.join(testCombination)
@@ -216,7 +216,7 @@ class NGramsModel:
 
             testCombinations = ngrams(testChars, N)
 
-            # Search/Count the num of test combinations in a model. Calculate prob and perp to evaluate each model;
+            # AI/Count the num of test combinations in a model. Calculate prob and perp to evaluate each model;
             logProb = 0
             for testCombination in testCombinations:
                 target_n = ''.join(testCombination)
@@ -273,7 +273,7 @@ class NGramsModel:
 
             testCombinations = list(ngrams(testChars, N))
 
-            # Search/Count the num of test combinations in Ns models. Calculate prob and perp to evaluate each group;
+            # AI/Count the num of test combinations in Ns models. Calculate prob and perp to evaluate each group;
             logProb = 0
             for testCombination in testCombinations:
                 currLambdas = hashTableLambdas.get((filename_develop, filename_model, testCombination))
@@ -367,7 +367,7 @@ class NGramsModel:
             models_size = models_Ns[self.Ns.index(self.N)][1]
             testCombinations = ngrams(testChars, self.N)
 
-            # Search/Count the num of types of combinations; Then compute weights in Deleted Interpolation approach;
+            # AI/Count the num of types of combinations; Then compute weights in Deleted Interpolation approach;
             Lambdas = [0] * len(self.Ns)
             for testCombination in testCombinations:
                 target_case1_nu = ''.join(testCombination)

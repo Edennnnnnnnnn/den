@@ -10,7 +10,7 @@ import numpy
 class MMBiAStar:
 	def __init__(self, initState: State, goalState: State, spaceMap: Map):
 		"""
-			This is the creator function which is used to initialize Meet-in-the-middle Bidirectional AStar Search;
+			This is the creator function which is used to initialize Meet-in-the-middle Bidirectional AStar AI;
 		:param:
 			- initState, State, the initial position to start searching;
 			- goalState, State, the target position to end searching;
@@ -30,7 +30,7 @@ class MMBiAStar:
 		
 	def search(self) -> tuple:
 		"""
-			This is the searching function which is used to process Meet-in-the-middle Bidirectional ASta Search;
+			This is the searching function which is used to process Meet-in-the-middle Bidirectional ASta AI;
 		:returns:
 			- (cost: float, expansions: int), tuple, contains searching results: the searching costs (-1 for no-found),
 		nun of node expanded in the searching process;
@@ -48,7 +48,7 @@ class MMBiAStar:
 			# Stopping Condition:
 			if self.U <= min(self.openF[0].get_cost(), self.openB[0].get_cost()):
 				return self.U, self.expandingCounter
-			# Expanding Forward Search:
+			# Expanding Forward AI:
 			if self.openF[0].get_cost() < self.openB[0].get_cost():
 				currState = heapq.heappop(self.openF)
 				self.expandingCounter += 1
@@ -75,7 +75,7 @@ class MMBiAStar:
 						# Re-heapify:
 						heapq.heapify(self.openF)
 						
-			# Expanding Backward Search (exactly as above but with OPEN_b)
+			# Expanding Backward AI (exactly as above but with OPEN_b)
 			else:
 				currState = heapq.heappop(self.openB)
 				self.expandingCounter += 1

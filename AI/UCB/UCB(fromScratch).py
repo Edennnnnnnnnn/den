@@ -2,6 +2,7 @@
 
 from bernoulli import bernoulliExperiment
 from math import sqrt, log
+import numpy as np
 
 INFINITY = np.inf
 

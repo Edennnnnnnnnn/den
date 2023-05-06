@@ -10,7 +10,7 @@ import numpy
 class BiBS:
     def __init__(self, initState: State, goalState: State, spaceMap: Map):
         """
-            This is the creator function which is used to initialize Bidirectional Brute-force Search;
+            This is the creator function which is used to initialize Bidirectional Brute-force AI;
         :param:
             - initState, State, the initial position to start searching;
             - goalState, State, the target position to end searching;
@@ -30,7 +30,7 @@ class BiBS:
 
     def search(self) -> tuple:
         """
-            This is the searching function which is used to process Bidirectional Brute-force Search;
+            This is the searching function which is used to process Bidirectional Brute-force AI;
         :return:
             - (cost: float, expansions: int), tuple, contains searching results: the searching costs (-1 for no-found),
         nun of node expanded in the searching process;
@@ -45,7 +45,7 @@ class BiBS:
             # Stopping Condition:
             if self.U <= self._getUnionCost(self.openF[0], self.openB[0]):
                 return self.U, self._getUnionExpansions(self.expandingCounterF, self.expandingCounterB)
-            # Expanding Forward Search:
+            # Expanding Forward AI:
             if self.openF[0] < self.openB[0]:
                 currState = heapq.heappop(self.openF)
                 self.expandingCounterF += 1
@@ -70,7 +70,7 @@ class BiBS:
                         # Re-heapify:
                         heapq.heapify(self.openF)
 
-            # Expanding Backward Search (exactly as above but with OPEN_b)
+            # Expanding Backward AI (exactly as above but with OPEN_b)
             else:
                 currState = heapq.heappop(self.openB)
                 self.expandingCounterB += 1
