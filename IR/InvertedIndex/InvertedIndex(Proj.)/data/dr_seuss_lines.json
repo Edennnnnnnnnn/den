@@ -1,0 +1,27 @@
+[
+	{
+		"doc_id" : "0",
+		"line" : "Unless someone like you cares a whole awful lot, nothing is going to get better. It’s not.",
+		"book" : "The Lorax"
+	},
+	{
+		"doc_id" : "1",
+		"line" : "I meant what I said, and I said what I meant... An elephant’s faithful, one hundred per cent!",
+		"book" : "Horton Hatches the Egg"
+	},
+	{
+		"doc_id" : "2",
+		"line" : "Today you are you! That is truer than true! There is no one alive who is You-er than You!",
+		"book" : "Happy Birthday to You!"
+	},
+	{
+		"doc_id" : "3",
+		"line" : "From there to here, and here to there, funny things are everywhere.",
+		"book" : "One Fish, Two Fish, Red Fish, Blue Fish"
+	},
+	{
+		"doc_id" : "4",
+		"line" : "And will you succeed? Yes! You will, indeed! (98 and 3/4 percent guaranteed.)",
+		"book" : "Oh, the Places You’ll Go!"
+	}
+]
