@@ -133,11 +133,11 @@
 > - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras/Dijkstras(Proj.1))
 
 #### [Minimax (Minimax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Minimax) [`Tree-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Minimax/Minimax(fromScratch).py)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Minimax/Minimax(fromScratch).py))
 > - Requirements: `time`, `numpy`;
 > - Variants:
-> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Minimax/Minimax(fromScratch).py#L19)
-> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Minimax/Minimax(fromScratch).py#L56)
+> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L19)
+> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L56)
 
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/MMBiAStar/MMBiAStar(fromScratch).py))
@@ -145,11 +145,11 @@
 > - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar/MMBiAStar(Proj.1))
 
 #### [Negamax (Negamax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Negamax) [`Tree-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Negamax/Negamax(fromScratch).py)
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Negamax/Negamax(fromScratch).py))
 > - Requirements: `time`, `numpy`;
 > - Variants:
-> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Negamax/Negamax(fromScratch).py#L23)
-> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Negamax/Negamax(fromScratch).py#L68)
+> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L23)
+> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L68)
 
 #### [UCB (Upper Confidence Bound Algorithm)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/UCB) [`Optimization:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/UCB/UCB(fromScratch).py)
