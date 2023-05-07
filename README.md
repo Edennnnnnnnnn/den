@@ -12,6 +12,11 @@
 > ##### (from [NLTK](https://github.com/Edennnnnnnnnn/den/blob/main/ML/HMMs/HMMs(fromNLTK).py))
 > - Method: `from nltk.tag.hmm import HiddenMarkovModelTrainer, HiddenMarkovModelTagger`;
 
+#### [k-means (k-means Clustering Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/HMMs) [`UL:Clustering`, `Discriminative`] 
+> ##### (from [Scratch]())
+> - Intro: C# used, designed for game elements collecting based on the Unity Engr;
+> - Requirements: `System`, `UnityEngine`;
+
 #### [KNN (k-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch.1).py))
 > - Intro: Designed for pictures detection and classification;
