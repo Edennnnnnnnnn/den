@@ -17,7 +17,7 @@
 > - Intro: C# used, designed for game elements collecting based on the Unity Engr;
 > - Requirements: `System`, `UnityEngine`;
 
-#### [KNN (k-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`, `Discriminative`] 
+#### [k-NN (k-nearest Neighbors Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromScratch.1).py))
 > - Intro: Designed for pictures detection and classification;
 > - Requirements: `pyTorch`, `pandas`, `torchvision`;
