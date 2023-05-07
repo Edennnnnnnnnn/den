@@ -75,8 +75,8 @@
 > - Intro: Designed for document data classification and better retrieval, established based on SMART weighting scheme of `ltc`;
 > - Requirements: `os`, `collections`, `csv`, `heapq`, `json`, `math`, `sys`, `nltk`;
 > - Variants:
-> - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L64)
-> - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L77)
+> - - Method of [Stopwords Pruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L64)
+> - - Method of [Punctuation Pruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L77)
 > - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio/Rocchio(Proj.1))
 
 #### [SVM (Support Vector Machine)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM) [`SL:Classification`, `Discriminative`] 
