@@ -23,7 +23,7 @@
 > - Variants:
 > - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/KNN/KNN(fromScratch.2)(B.Prediction).py#L80)
 > - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/KNN/KNN(fromScratch.2)(B.Prediction).py#L93)
-> - Relevant Projects --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN/KNN(Proj.2))
+> - Relevant Project --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/KNN/KNN(Proj.2))
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/KNN/KNN(fromSKLearn).py))
 > - Method: `from sklearn.neighbors import KNeighborsClassifier`;
 > - Design: Cross Validation applied;
@@ -48,14 +48,14 @@
 > ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.1).py))
 > - Intro: Designed for NLP information (emotion/type) extraction purpose, with complete model analysis part (Confusion matrix based);
 > - Requirements: `sys`, `csv`, `math`, `copy`, `nltk`, `pandas`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.1))
 > ##### (from [Scratch.2A](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.2)(A.Training).py) [Scratch.2B](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromScratch.2)(B.Prediction).py))
 > - Intro: Designed for document data classification and better retrieval;
 > - Requirements: `json`, `sys`, `nltk`, `os`, `csv`, `nltk`;
 > - Variants:
 > - - Method of [Stopwords Pruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L61)
 > - - Method of [Punctuation Pruning](https://github.com/Edennnnnnnnnn/den/blob/9e574eaf96374edf79024b200e323e446259413b/ML/NBs/NBs(fromScratch.2)(A.Training).py#L74)
-> - Relevant Projects --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.2))
+> - Relevant Project --> [Project.2](https://github.com/Edennnnnnnnnn/den/tree/main/ML/NBs/NBs(Proj.2))
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/NBs/NBs(fromSkLearn).py))
 > - Method: `from sklearn.naive_bayes import BernoulliNB`;
 > - Design: Cross Validation applied;
@@ -72,19 +72,19 @@
 > - Variants:
 > - - Method of [StopWordsPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L64)
 > - - Method of [PunctuationPruning](https://github.com/Edennnnnnnnnn/den/blob/be789762f640d95e3baeca88fe8dd8884f43267f/ML/Rocchio/Rocchio(fromScratch)(A.Training).py#L77)
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio/Rocchio(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio/Rocchio(Proj.1))
 
 #### [SVM (Support Vector Machine)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM) [`SL:Classification`, `Discriminative`] 
 > ##### (from [SKLearn](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SVM/SVM(fromSKLearn).py))
 > - Method: `from sklearn.svm import SVC`;
 > - Design: Cross Validation applied;
-> - Relevant Projects --> [Project.1+](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM/SVM(Proj.1%2B))
+> - Relevant Project --> [Project.1+](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SVM/SVM(Proj.1%2B))
 
 #### [Softmax Regression](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SoftmaxRegression) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/ML/SoftmaxRegression/SoftmaxRegression(fromScratch).py))
 > - Intro: Designed for pictures detection and classification;
 > - Requirements: `numpy`, `struct`, `matplotlib.pyplot`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SoftmaxRegression/SoftmaxRegression(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/ML/SoftmaxRegression/SoftmaxRegression(Proj.1))
 
 
 &nbsp;
@@ -104,7 +104,6 @@
 > - Method: `from nltk.tbl.template import Template`;
 
 
-
 &nbsp;
 ## [AI] Searching, Planning & Optimization Algorithms
 
@@ -112,47 +111,50 @@
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Alphabeta/Alphabeta(fromScratch).py))
 > - Requirements: `numpy`;
 > - Variants:
-> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L14)
-> - - Method of [Depth Limited Heuristic Version](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L38)
+> - - Version of [the Naive](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L14)
+> - - Version of [the Depth-limited Heuristic](https://github.com/Edennnnnnnnnn/den/blob/87ce79dd85303a225f7ecdb285a5ff39735069a5/AI/Alphabeta/Alphabeta(fromScratch).py#L38)
 
 #### [A* Search](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AStar)  [`Space-based:Heuristic`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/AStar/AStar(fromScratch).py))
+> ##### (from [Scratch.1](https://github.com/Edennnnnnnnnn/den/blob/main/AI/AStar/AStar(fromScratch.1).py))
 > - Requirements: `heapq`, `numpy`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AStar/AStar(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AStar/AStar(Proj.1))
+> ##### (from [Scratch.2](https://github.com/Edennnnnnnnnn/den/blob/main/AI/AStar/AStar(fromScratch.2).py))
+> - Intro: C# used, designed for game path finding based on the Unity Engr;
+> - Requirements: `System`, `UnityEngine`;
 
 #### [Bi-A* (Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/BiAStar/BiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiAStar/BiAStar(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiAStar/BiAStar(Proj.1))
 
 #### [Bi-BS (Bidirectional Brute-force Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/BiBS/BiBS(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS/BiBS(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/BiBS/BiBS(Proj.1))
 
 #### [Dijkstra's Search](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras) [`Space-based:Uninfo`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Dijkstras/Dijkstras(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras/Dijkstras(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Dijkstras/Dijkstras(Proj.1))
 
 #### [Minimax (Minimax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Minimax) [`Tree-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Minimax/Minimax(fromScratch).py))
 > - Requirements: `time`, `numpy`;
 > - Variants:
-> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L19)
-> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L56)
+> - - Version of [the Boolean](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L19)
+> - - Version of [the Naive](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Minimax/Minimax(fromScratch).py#L56)
 
 #### [MMBi-A* (Meet-in-the-middle Bidirectional A* Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar) [`Space-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/MMBiAStar/MMBiAStar(fromScratch).py))
 > - Requirements: `heapq`, `numpy`;
-> - Relevant Projects --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar/MMBiAStar(Proj.1))
+> - Relevant Project --> [Project.1](https://github.com/Edennnnnnnnnn/den/tree/main/AI/MMBiAStar/MMBiAStar(Proj.1))
 
 #### [Negamax (Negamax Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Negamax) [`Tree-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Negamax/Negamax(fromScratch).py))
 > - Requirements: `time`, `numpy`;
 > - Variants:
-> - - Method of [Boolean Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L23)
-> - - Method of [Naive Version](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L68)
+> - - Version of [the Boolean](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L23)
+> - - Version of [the Naive](https://github.com/Edennnnnnnnnn/den/blob/d495a783323637a88f4ce1f65c023829c5490815/AI/Negamax/Negamax(fromScratch).py#L68)
 
 #### [UCB (Upper Confidence Bound Algorithm)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/UCB) [`Optimization:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/UCB/UCB(fromScratch).py))
