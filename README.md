@@ -70,7 +70,7 @@
 > - Intro: Established as a three-layer simple NN, `sigmoid` function is used as the activation function;
 > - Requirements: `numpy`;
 
-#### [Rocchio Model](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio) [`SL:Classification`, `Discriminative`] 
+#### [Rocchio's Algorithm (Rocchio Classifier Model)](https://github.com/Edennnnnnnnnn/den/tree/main/ML/Rocchio) [`SL:Classification`, `Discriminative`] 
 > ##### (from [Scratch.A](https://github.com/Edennnnnnnnnn/den/blob/main/ML/Rocchio/Rocchio(fromScratch)(A.Training).py) [Scratch.B](https://github.com/Edennnnnnnnnn/den/blob/main/ML/Rocchio/Rocchio(fromScratch)(B.Prediction).py))
 > - Intro: Designed for document data classification and better retrieval, established based on SMART weighting scheme of `ltc`;
 > - Requirements: `os`, `collections`, `csv`, `heapq`, `json`, `math`, `sys`, `nltk`;
