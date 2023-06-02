@@ -210,7 +210,7 @@
 > ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/MultiArmedBanditProblem/MultiArmedBanditProblem(fromScratch).md))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `time`, `matplotlib.pyplot`, ...;
 
-#### [Policy Improvement, Value Improvement & DP](https://github.com/Edennnnnnnnnn/den/tree/main/RL/PolicyValueImprove%26DP) [`Model-based:Control`] 
+#### [Policy Improvement, Value Improvement & Dynamic Programming (DP)](https://github.com/Edennnnnnnnnn/den/tree/main/RL/PolicyValueImprove%26DP) [`Model-based:Control`] 
 > ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/PolicyValueImprove%26DP/PolicyValueImprove%26DP(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `numpy`, ...;
 
