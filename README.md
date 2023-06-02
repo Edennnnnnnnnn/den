@@ -194,3 +194,29 @@
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
+#### [AdamOptimization]()
+> ##### (from [Scratch(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `copy`, `matplotlib.pyplot`, `shutil`, ...;
+
+> #### [FuncApproximation&Sarsa]()
+> ##### (from [Scratch(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `itertools`, `matplotlib.pyplot`, `time` ...;
+
+#### [MultiArmedBanditProblem]()
+> ##### (from [Scratch(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `time`, `matplotlib.pyplot`, ...;
+
+#### [PolicyValueImprove&DP]()
+> ##### (from [Scratch(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `numpy`, ...;
+
+#### [Semi-gradientTD]()
+> ##### (from [Scratch.1(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, ...;
+> ##### (from [Scratch.2(Notes)]())
+> - Intro: With Neural Network Classifier applied;
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, `os`, `matplotlib.pyplot`, `shutil`, ...;
+
+#### [TD]()
+> ##### (from [Scratch(Notes)]())
+> - Requirements: Jupyter-Notebook-Env. with `jdc`, `numpy`, `rl_glue.RLGlue`, `itertools`, `tqdm`, ...;
