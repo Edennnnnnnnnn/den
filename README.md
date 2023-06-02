@@ -218,13 +218,13 @@
 > ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Q-Learning&ExpSarsa/Q-Learning&ExpSarsa(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `scipy.stats`, `numpy`, `rl_glue.RLGlue`, `tqdm`, `matplotlib.pyplot` ...;
 
-#### [Semi-gradient TD](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Semi-gradientTD) [`Environment-based:Prediction`] 
+#### [Semi-gradient Temporal Difference (TD)](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Semi-gradientTD) [`Environment-based:Prediction`] 
 > ##### (from [Scratch.1(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Semi-gradientTD/Semi-gradientTD(fromScratch.1).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, ...;
 > ##### (from [Scratch.2(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Semi-gradientTD/Semi-gradientTD(fromScratch.2).ipynb))
 > - Intro: With Neural Network Classifier applied;
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, `os`, `matplotlib.pyplot`, `shutil`, ...;
 
-#### [TD](https://github.com/Edennnnnnnnnn/den/tree/main/RL/TD) [`Model-based:Prediction`] 
+#### [Temporal Difference (TD)](https://github.com/Edennnnnnnnnn/den/tree/main/RL/TD) [`Model-based:Prediction`] 
 > ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/TD/TD(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `jdc`, `numpy`, `rl_glue.RLGlue`, `itertools`, `tqdm`, ...;
