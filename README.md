@@ -194,29 +194,37 @@
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
-#### [AdamOptimization]()
-> ##### (from [Scratch(Notes)]())
+#### [AdamOptimization](https://github.com/Edennnnnnnnnn/den/tree/main/RL/AdamOptimization)
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/AdamOptimization/AdamOptimization.ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `copy`, `matplotlib.pyplot`, `shutil`, ...;
 
-#### [FunctionApproximation&Sarsa]()
-> ##### (from [Scratch(Notes)]())
+#### [Dyna-Q&Dyna-Q+](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Dyna-Q&Dyna-Q+) [`Model-based:Prediction`] 
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Dyna-Q&Dyna-Q+/Dyna-Q&Dyna-Q+(fromScratch).ipynb))
+> - Requirements: Jupyter-Notebook-Env. with `jdc`, `numpy`, `rl_glue.RLGlue`, `os`, `tqdm`, `matplotlib.pyplot` ...;
+
+#### [FunctionApproximation&Sarsa](https://github.com/Edennnnnnnnnn/den/tree/main/RL/FunctionApproximation%26Sarsa) [`Model-based`] 
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/FunctionApproximation%26Sarsa/FunctionApproximation%26Sarsa(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `itertools`, `matplotlib.pyplot`, `time` ...;
 
-#### [MultiArmedBanditProblem]()
-> ##### (from [Scratch(Notes)]())
+#### [MultiArmedBanditProblem](https://github.com/Edennnnnnnnnn/den/tree/main/RL/MultiArmedBanditProblem)
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/MultiArmedBanditProblem/MultiArmedBanditProblem(fromScratch).md))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `time`, `matplotlib.pyplot`, ...;
 
-#### [PolicyValueImprove&DP]()
-> ##### (from [Scratch(Notes)]())
+#### [PolicyValueImprove&DP](https://github.com/Edennnnnnnnnn/den/tree/main/RL/PolicyValueImprove%26DP) [`Model-based:Control`] 
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/PolicyValueImprove%26DP/PolicyValueImprove%26DP(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `numpy`, ...;
 
-#### [Semi-gradientTD]()
-> ##### (from [Scratch.1(Notes)]())
+#### [Q-Learning&ExpSarsa](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Q-Learning&ExpSarsa) [`Environment/Model-based:Control`] 
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Q-Learning&ExpSarsa/Q-Learning&ExpSarsa(fromScratch).ipynb))
+> - Requirements: Jupyter-Notebook-Env. with `scipy.stats`, `numpy`, `rl_glue.RLGlue`, `tqdm`, `matplotlib.pyplot` ...;
+
+#### [Semi-gradientTD](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Semi-gradientTD) [`Environment-based:Prediction`] 
+> ##### (from [Scratch.1(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Semi-gradientTD/Semi-gradientTD(fromScratch.1).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, ...;
-> ##### (from [Scratch.2(Notes)]())
+> ##### (from [Scratch.2(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Semi-gradientTD/Semi-gradientTD(fromScratch.2).ipynb))
 > - Intro: With Neural Network Classifier applied;
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `tqdm`, `os`, `matplotlib.pyplot`, `shutil`, ...;
 
-#### [TD]()
-> ##### (from [Scratch(Notes)]())
+#### [TD](https://github.com/Edennnnnnnnnn/den/tree/main/RL/TD) [`Model-based:Prediction`] 
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/TD/TD(fromScratch).ipynb))
 > - Requirements: Jupyter-Notebook-Env. with `jdc`, `numpy`, `rl_glue.RLGlue`, `itertools`, `tqdm`, ...;
