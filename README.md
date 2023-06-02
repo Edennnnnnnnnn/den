@@ -2,7 +2,7 @@
 
 > #####  Author: `Eden Zhou`
 > #####  Current Version: `20230603`
-> #####  * ***For Sharing: Please star the repo before taking codes. Thanks for your understanding!!***
+> #####  * ***For Sharing: Please star the repo before taking codes. Thanks for your support!!***
 
 
 &nbsp;
