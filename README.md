@@ -1,7 +1,7 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230507`
+> #####  Current Version: `20230603`
 > #####  * ***For Sharing: Please star the repo before taking codes. Thanks for your understanding!!***
 
 
@@ -198,7 +198,7 @@
 > ##### (from [Scratch(Notes)]())
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `copy`, `matplotlib.pyplot`, `shutil`, ...;
 
-> #### [FuncApproximation&Sarsa]()
+#### [FunctionApproximation&Sarsa]()
 > ##### (from [Scratch(Notes)]())
 > - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `itertools`, `matplotlib.pyplot`, `time` ...;
 
