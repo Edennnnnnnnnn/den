@@ -1,7 +1,7 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230603`
+> #####  Current Version: `20230616`
 > #####  * ***For Sharing: Please star the repo before taking codes. Thanks for your support!!***
 
 
@@ -112,6 +112,11 @@
 &nbsp;
 ## [AI] Searching, Planning & Optimization Algorithms
 
+#### [Adam Optimization](https://github.com/Edennnnnnnnnn/den/tree/main/AI/AdamOptimization)
+> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/AI/AdamOptimization/AdamOptimization.ipynb))
+> - Intro: Designed for RL function approximation; Adam optimizer is used in sec.2 for better hyper-param tuning;
+> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `copy`, `matplotlib.pyplot`, `shutil`, ...;
+
 #### [Alphabeta (Alphabeta Tree Search)](https://github.com/Edennnnnnnnnn/den/tree/main/AI/Alphabeta) [`Tree-based:Heuristic`] 
 > ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/AI/Alphabeta/Alphabeta(fromScratch).py))
 > - Requirements: `numpy`;
@@ -194,9 +199,6 @@
 
 &nbsp;
 ## [RL] Reinforcement Learning Algorithms
-#### [Adam Optimization](https://github.com/Edennnnnnnnnn/den/tree/main/RL/AdamOptimization)
-> ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/AdamOptimization/AdamOptimization.ipynb))
-> - Requirements: Jupyter-Notebook-Env. with `rl_glue.RLGlue`, `numpy`, `os`, `copy`, `matplotlib.pyplot`, `shutil`, ...;
 
 #### [Dyna-Q & Dyna-Q+](https://github.com/Edennnnnnnnnn/den/tree/main/RL/Dyna-Q&Dyna-Q+) [`Model-based:Prediction`] 
 > ##### (from [Scratch(Notes)](https://github.com/Edennnnnnnnnn/den/blob/main/RL/Dyna-Q&Dyna-Q+/Dyna-Q&Dyna-Q+(fromScratch).ipynb))
