@@ -2,8 +2,6 @@
 
 > #####  Author: `Eden Zhou`
 > #####  Current Version: `20230616`
-> #####  * ***For Sharing: Please star the repo before taking codes. Thanks for your support!!***
-
 
 &nbsp;
 ## [ML] Machine Learning Algorithms
