@@ -1,7 +1,7 @@
 # den: Algorithm Library
 
 > #####  Author: `Eden Zhou`
-> #####  Current Version: `20230616`
+> #####  Current Version: `20231020 (updating)` 
 
 &nbsp;
 ## [ML] Machine Learning Algorithms
@@ -186,13 +186,78 @@
 
 
 
+
 &nbsp;
-## [CD] Encoding, Decoding & Compresion Algorithms
-
-#### [Huffman Coding](https://github.com/Edennnnnnnnnn/den/tree/main/CD/HuffmanCoding) [`Encoding/Decoding`] 
-> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/CD/HuffmanCoding/HuffmanCoding(fromScratch).py))
+## [MM] Multimedia Processing Algorithms
+#### [Huffman Coding](https://github.com/Edennnnnnnnnn/den/tree/main/MM/HuffmanCoding) [`Compression`] 
+> ##### (from [Scratch](https://github.com/Edennnnnnnnnn/den/blob/main/MM/HuffmanCoding/HuffmanCoding(fromScratch).py))
 > - Intro: Based on parsing-tree structure to enable fast encoding and decoding processes;
+> - Requirements: `re`, `os`, `sys`, `csv`, `nltk`;
 
+#### [Gaussian Noising]() [`Noising`] 
+> ##### (from [Scratch]())
+> - Intro: Creating and adding Gaussian Noise to a given image;
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+> - Relevant Projects --> (Noising & Filtering) [Project.1]()
+> - Relevant Paper Report --> [Noising & Filtering - ReportPaper]()
+
+#### [Salt & Pepper Noising]() [`Noising`] 
+> ##### (from [Scratch]())
+> - Intro: Creating and adding Salt & Pepper Noise to a given image;
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+
+#### [Speckle Noising]() [`Noising`] 
+> ##### (from [Scratch]())
+> - Intro: Creating and adding Speckle Noise to a given image;
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+
+#### [Mean Filtering]() [`Fltering`] 
+> ##### (from [Scratch]())
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+> - Intro: 
+
+#### [BM3D Filtering (Block-matching and 3D Filtering)]() [`Fltering`] 
+> ##### (from [Scratch]())
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+> - Intro: 
+
+#### [Multimedia Evaluation Metrics]() [`Eval`] 
+> ##### (from [Scratch]())
+> - Intro: 
+> - Requirements: `numpy`, `os`, `cv2`, `sys`;
+> - Standards:
+> - - Evaluation Metric of [SSIM (The Structural Similarity Index)]()
+> - - Evaluation Metric of [PSNR (Peak Signal-to-noise Ratio)]()
+
+
+
+&nbsp;
+## [DL] Deep Learning Algorithms
+
+#### [DDPM (Denoising Diffusion Probabilistic Model)]() [`DeepGenerative`] 
+> ##### (from [Scratch]())
+> - Intro: Constructed based on two potential `UNets`, two editions (for `grayscale` and `color` images) and three extension
+improvements (about "Text-to-image") given;
+> - Requirements: Jupyter-Notebook-Env. with `torch`, `numpy`, `torchvision`, `cv2`, `PIL`; and `nltk`, `gensim` (for Variants);
+> - Variants:
+> - - Variant of [GrayScale 2C x 2C DDPM]()
+> - - Variant of [Colorful 3C x 3C DDPM]()
+> - - Attempt of [Colorful Text-to-image 3C x 3C DDPM with Text2Vector Noise]()
+> - - Attempt of [Colorful Text-to-image 3C x 3C DDPM with Stopword-removed Text2Vector Noise]()
+> - - Attempt of [Colorful Text-to-image 4C x 4C DDPM with Text2Vector Layer]()
+> - Relevant Projects --> (Pretrained Models Mainly Focus on Variants) [Project.1]()
+> - Relevant Projects --> (Pretrained Models Mainly Focus on Attempts) [Project.2]()
+> - Relevant Paper Report --> [DDPM - ReportPaper]()
+
+#### [VAE (Variational Autoencoder)]() [`DeepGenerative`] 
+> ##### (from [Reference]())
+> Reference: the given VAE model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
+> - Ref to: https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_vae
+
+#### [GAN (Generative Adversarial Network)]() [`DeepGenerative`] 
+> ##### (from [Reference]())
+> Reference: the given GAN model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
+> - Ref to: (dcGAM) https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_dcgan
 
 
 &nbsp;
