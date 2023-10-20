@@ -251,13 +251,13 @@ improvements (about "Text-to-image") given;
 
 #### [VAE (Variational Autoencoder)]() [`DeepGenerative`] 
 > ##### (from [Reference]())
-> Reference: the given VAE model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
-> - Ref to: https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_vae
+> - Reference: the given VAE model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
+> - - Ref to: https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_vae
 
 #### [GAN (Generative Adversarial Network)]() [`DeepGenerative`] 
 > ##### (from [Reference]())
-> Reference: the given GAN model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
-> - Ref to: (dcGAM) https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_dcgan
+> - Reference: the given GAN model taken from open resources, some visualization and analysis tools are introduced for its latent variable space.
+> - - Ref to: (dcGAM) https://github.com/csinva/gan-vae-pretrained-pytorch/tree/master/mnist_dcgan
 
 
 &nbsp;
